@@ -1,0 +1,17 @@
+<html>
+<link rel="stylesheet" href="cooltip.css" />
+
+<body>
+<a class="tooltip" href="#" title="Hello World">lorem ipsum</a>
+
+<script src="jquery-1.11.3.js"></script>
+<script src="cooltip.jquery.js"></script>
+<script>
+$(function(){
+ $('.tooltip').tooltip();
+});
+
+
+</script>
+</body>
+</html>
